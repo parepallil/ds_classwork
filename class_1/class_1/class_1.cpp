@@ -6,14 +6,17 @@
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
-int main() {
-
+int main()
+{
+    // Initializing an array named myNumbers with five integers
     int myNumbers[5] = { 10, 20, 30, 40, 50 };
+    // using for loop to iterate the array elements
     for(int i : myNumbers ){
-        cout<<i<<"\n";
+        cout<<i<<"\n";// printing the each element in a new line
      }
-
+    // Initializing an array of strings named cars
     string cars[] = {"volvo", "bmw", "Ford"};
+    // Modifying elements in the array
     cars[1]= "opel";
     cars[2]= "Bmw";
     for(int i=0; i<4; i++)
@@ -21,18 +24,22 @@ int main() {
         cout<< cars[i]<<" ";
     }  
 
-
+    //  Integer array
     int myNumbers[5]= {10,20,30,40,50};
+    // Printing the size of the integer array
     cout << sizeof(myNumbers);
-    return 0;
-
+   
+    // String array
     string cars[] = {"volve", "BMW" , "Ford", "MAzde"};
+    // Calculating the number of elements in the string array
     int n = sizeof(cars)/sizeof(string);
     for(int i; i < n; i++){
         cout << cars[i]<<"\n";
     }
 
+    // initialize an array of strings named letters and uses nested loops to iterate
     string letters[2][4]={{"A","B","C","D"},{"E","F","G","H"}};
+    // Accessing and printing an element from the array
     cout<<letters[0][2]<<"\n";
 
 
@@ -47,6 +54,7 @@ int main() {
         }
 
     };
+    //Using nested loops to iterate over the elements of the  array
     for (int i=0;i<2;i++){
         for (int j=0; j<2; j++){
             for(int k=0; k<2; k++){
