@@ -1,0 +1,55 @@
+Task-5
+
+Advanced: Comparison with Other Sorting Algorithms
+Compare the bubble sort algorithm with quicksort and mergesort. Discuss the advantages and
+disadvantages of bubble sort in different scenarios. Additionally, analyze when it might be preferable to
+use other sorting algorithms.
+
+Bubble Sort :
+
+1. Compare with neighboring element and performs swap accordingly.
+2. No.fo comparisons n*(n-1)/2
+3. Bubble sort is easy to perform
+4. Bubble sort is the iterative approach
+
+Quick Sort :
+
+1. Compare the whole array with a fixed pivot element and swaps accordingly.
+2. No.of comparisons: n*log(n) in best case n^2 in wort case
+3. For largest arrays it is efficient
+4. Quick sort is Recursive approach
+
+Merge Sort :
+
+1. It follows divide and conquer rule for sorting
+2. No.of comparisons: nlog(n)
+3. It is suitable for larger datasets
+4. Time complexity of merge sort: O(n logn)
+5. Merge sort is a recursive approach
+
+ADVANTAGES OF BUBBLE SORT:
+
+1. It is easy to implement and easy to perform
+2. Suitable for smaller data sets
+3. While sorting it does not needed the additional memory
+4. As bubble sort is easy to implement, it is easily integrated in a code.
+5. It is a stable sorting algorithm.
+
+ADVANTAGES OF BUBBLE SORT:
+
+1.It is easy to implement and easy to perform
+2. Suitable for smaller data sets
+3. While sorting it does not needed the additional memory
+4.As bubble sort is easy to implement, it is easily integrated in a code.
+5. It is a stable sorting algorithm.
+
+Scenarios to prefers other sorting techniques rather than bubble sort:
+
+ 1. Whenever there are larger data sets prefer to use quick and merge sorts
+ 2. Whenever there are random or unpredictable arrays to sort then it prefres to use quick and
+    merge sorts rather than bubble sort
+ 3. When we need to perform the sort quickly and optimized it prefers to use quick sort.
+ 4. For real world applications it is better not to use bubble sort .Instead use quick or merge sorts.
+ 5. Whenever the additional memory is not a constraint, then we can use quick or merge sort
+    rather than bubble sort
+ 
