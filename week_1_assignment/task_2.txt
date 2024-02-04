@@ -1,0 +1,61 @@
+2.Trace the Bubble Sort
+Provided the unsorted array ` [7, 4, 2, 9, 1] ` and trace the bubble sort algorithm step by step, showing the
+changes in the array after each pass.
+Given array: [7, 4, 2, 9, 1]
+Pass 1:
+  ● Compare 7 and 4.
+  ○ swap them.
+  ○ Array →[4, 7, 2, 9, 1].
+  ● Compare 7 and 2.
+  ○ Swap them.
+  ○ Array → [4, 2, 7, 9, 1].
+  ● Compare 7 and 9.
+  ○ No swap needed.
+  ○ Array→ [4, 2, 7, 9, 1].
+  ● Compare 9 and 1.
+  ○ Swap them.
+  ○ Array → [4, 2, 7, 1, 9].
+  ● After Pass 1: [4, 2, 7, 1, 9]
+Pass 2:
+  ● Compare 4 and 2.
+  ○ Swap them.
+  ○ Array → [2, 4, 7, 1, 9].
+  ● Compare 4 and 7.
+  ○ No swap needed.
+  ○ Array→ [2, 4, 7, 1, 9].
+  ● Compare 7 and 1.
+  ○ Swap them.
+  ○ Array →[2, 4, 1, 7, 9].
+  ● Compare 7 and 9.
+  ○ No swap needed.
+  ○ Array → [2, 4, 1, 7, 9].
+  ● After Pass 2: [2, 4, 1, 7, 9]
+Pass 3:
+  ● Compare 2 and 4.
+  ○ No swap needed.
+  ○ Array → [2, 4, 1, 7, 9].
+  ● Compare 4 and 1.
+  ○ Swap them.
+  ○ Array →[2, 1, 4, 7, 9].
+  ● Compare 4 and 7 .
+  ○ No swap needed.
+  ○ Array→ [2, 1, 4, 7, 9].
+  ● Compare 7 and 9.
+  ○ No swap needed.
+  ○ Array → [2, 1, 4, 7, 9].
+  ● After Pass 3: [2, 1, 4, 7, 9]
+Pass 4:
+  ● Compare 2 and 1.
+  ○ Swap them.
+  ○ Array→[1, 2, 4, 7, 9].
+  ● Compare 2 and 4.
+  ○ No swap needed.
+  ○ Array →[1, 2, 4, 7, 9].
+  ● Compare 4 and 7.
+  ○ No swap needed.
+  ○ Array →[1, 2, 4, 7, 9].
+  ● Compare 7 and 9.
+  ○ No swap needed.
+  ○ Array →[1, 2, 4, 7, 9].
+● After Pass 4: [1, 2, 4, 7, 9]
+Now, the array is sorted, and no more passes are needed. The final sorted array is [1, 2, 4, 7, 9]
