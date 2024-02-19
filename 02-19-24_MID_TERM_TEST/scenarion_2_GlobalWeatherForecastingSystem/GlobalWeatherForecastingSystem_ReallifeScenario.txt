@@ -1,0 +1,5 @@
+Scenario 2: Global Weather Forecasting System (Binary Tree)
+
+Real-Life Scenario Explanation:
+
+A global weather forecasting system requires efficient storage and retrieval of weather data for different locations worldwide. Using a binary tree data structure, each node can represent weather data for a specific location, including parameters like temperature and humidity. The binary tree allows for quick searching and retrieval of weather information based on location, making it suitable for a real-time weather forecasting system.

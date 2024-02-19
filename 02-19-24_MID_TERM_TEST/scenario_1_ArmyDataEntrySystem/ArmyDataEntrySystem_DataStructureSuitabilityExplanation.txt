@@ -1,0 +1,6 @@
+Data Structure Suitability Explanation:
+A linked list is suitable for this scenario because:
+
+It allows for efficient insertion and deletion of records, which is essential for constantly updating personnel data in a dynamic environment like the army.
+Linked lists can handle variable-length data efficiently, enabling the storage of diverse information such as name, rank, and unit for each soldier.
+The flexibility of linked lists allows for easy traversal and manipulation of personnel records, facilitating operations such as searching, sorting, and updating information.
