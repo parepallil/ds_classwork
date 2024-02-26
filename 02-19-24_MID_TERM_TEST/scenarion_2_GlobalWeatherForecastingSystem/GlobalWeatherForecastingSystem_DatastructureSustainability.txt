@@ -1,0 +1,8 @@
+Scenario 2: Global Weather Forecasting System (Binary Tree)
+
+Data Structure Suitability Explanation:
+A binary tree is suitable for this scenario because:
+
+It enables efficient organization and retrieval of weather data for various locations, supporting quick access to information based on location identifiers.
+Binary trees offer fast searching capabilities, allowing meteorologists to locate weather data for specific locations rapidly.
+The hierarchical structure of binary trees facilitates easy navigation and management of weather data, making it suitable for storing and processing large volumes of information in a global weather forecasting system.

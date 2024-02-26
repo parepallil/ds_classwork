@@ -1,0 +1,5 @@
+Scenario 1: Army Data Entry System using Linked List
+
+Real-Life Scenario Explanation:
+
+In the army, maintaining records of personnel is crucial for effective management and operation. A data entry system using a linked list data structure can be employed to store information about soldiers, including their name, rank, and assigned unit. Each node in the linked list represents a soldier's profile, and new entries can be easily added or removed, providing a flexible and dynamic system for managing personnel data.
